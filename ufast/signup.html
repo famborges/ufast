@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>UFAST</title>
+        <link rel="icon" href="0B0kcKW1.jpg">
+        <!-- carregando arquivo interno CSS styles -->
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+    <body>
+    <div class="topnav" id="myTopnav">
+            <a href="index.html" >Página Inicial</a>
+            <a href="#" class="active">Quero Trabalhar</a>
+            <a href="login_user.html">Quero contratar</a>
+            <a href="servicos.html">Serviços Disponíves</a>
+            <img class="top" src="ufastfundo.png">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div>
+    </div>
+        <div class="login center">
+            <h1>Trabalhe na Ufast</h1>
+            <h3>Cadastro</h3>
+            <form href=mailto class="form">
+                <Label for="email">Email:</label><br>
+                <input type="email" name="email" placeholder="example@mail.com" required="true" class="input"></input><br>
+                <Label for="name">Nome Completo:</label><br>
+                <input type="text" name="name" placeholder="ex: Alberto Donato Pinheiro" required="true" class="input"></input><br>
+                <Label for="phone_number">Telefone</label><br>
+                <input type="number" name="phone_number" placeholder="(xx)xxxx-xxxx" required="true" class="input"></input><br>
+                <Label for="cpf">CPF:</label><br>
+                <input type="number" name="cpf" placeholder="CPF sem ponto e sem traço" required="true" class="input"></input><br>
+                <Label for="service">Serviço:</label><br>
+                <select type="email" name="email" placeholder="example@mail.com" required="true" class="input">
+                    <option>Jardineiro(a)</option>
+                    <option>Mecânico(a)/Carro</option>
+                    <option>Mecânico(a)/Refrigeração</option>
+                    <option>Diarista</option>
+                    <option>Montador(a) de móveis</option>
+                    <option>Pintor(a)</option>
+                    <option>Mestre de obra</option>
+                    <option>Encanador(a)</option>
+                    <option>Eletricista</option>
+                    <option>Cuidador(a)</option>
+                    <option>Cuidador(a) de pets</option>
+                    <option>Fotógrafo(a)</option>
+                    <option>Professor(a) de matemática</option>
+                    <option>Professor(a) de inglês</option>
+                    <option>Professor(a) de química</option>
+                    <option>Professor(a) de física</option>
+                    <option>Professor(a) de redação</option>
+                </select><br>
+                <label for="password">Senha:</label><br>
+                <input type="password" name="password" placeholder="sua senha" required="true" class="input"></inpu><br>
+                <label for="check password">Repita sua senha:</label><br>
+                <input type="password" name="check password" placeholder="repita sua senha" required="true" class="input"></inpu><br>
+                <button type="submit" class="btn btn-primary">Criar Conta</button>
+            </form>
+            <div>Esqueceu a senha?</div>
+            <a class="link" href="login_servico.html">Já tem conta? faça o login aqui</a>
+        </div>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            }
+        </script>
+    </body>
+</html>
